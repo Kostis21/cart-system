@@ -139,10 +139,12 @@ header {
 .total-title {
     font-size: 1rem;
     font-weight: 600;
+    margin-top: 10px;
 }
 
 .total-price {
     margin-left: 0.5rem;
+    margin-top: 10px;
 }
 
 .btn-buy {

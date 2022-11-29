@@ -41,7 +41,7 @@ function ready() {
 } 
 
 function buyButtonClicked() {
-    alert('Your Order is placed')
+    alert('Η παραγγελία σας τοποθετήθηκε')
     var cartContent = document.getElementsByClassName('cart-content')[0]
     while (cartContent.hasChildNodes()){
         cartContent.removeChild(cartContent.firstChild)
@@ -80,7 +80,7 @@ function addProductToCart(title, price, productImg) {
     var cartItemsNames = cartItems.getElementsByClassName('cart-product-title');
     for (var i = 0; i < cartItemsNames.length; i++){
        if (cartItemsNames[i].innerText == title) {
-          alert("You have already add this item to cart");
+          alert("Έχετε ήδη προσθέσει αυτό το προϊόν στο καλάθι");
           return;
         }
     }
